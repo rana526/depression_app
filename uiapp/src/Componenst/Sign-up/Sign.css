@@ -1,0 +1,83 @@
+.si-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:1550px;
+    height:750px;
+    background-color: #017efd;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 60%;
+
+}
+.content{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+
+}
+
+label {
+    display: inline;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+input,
+select {
+    margin-left: 0.5rem;
+    width: 20rem;
+    padding: 0.5rem;
+    /* margin-bottom: 1rem; */
+    border: none;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 0 2px #017efd;
+    font-size: 1rem;
+    color: #333;
+}
+
+input:focus,
+select:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #017efd, 0 0 0 4px rgba(1, 126, 253, 0.1);
+}
+
+input[type="submit"] {
+    background-color: red;
+    border: none;
+    border-radius: 0.25rem;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+input[type="submit"]:hover {
+    background-color: #015fe0;
+}
+
+button{
+    background-color: red;
+    border: none;
+    border-radius: 0.25rem;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
